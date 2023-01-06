@@ -1,0 +1,262 @@
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_info span, body .main_block .phone_wrap .phone .phone_header .head_menu .user_info h3, body {
+  padding: 0;
+  margin: 0;
+}
+
+body .main_block .phone_wrap .phone .phone_header .head_menu .back img {
+  width: 4px;
+  height: 10px;
+}
+
+body .main_block .phone_wrap .phone .screen .send, body .main_block .phone_wrap .phone .screen .moderat {
+  max-width: 60%;
+  padding: 8px;
+  margin: 4px;
+}
+
+@media screen and (min-width: 1px) and (max-width: 800px) {
+  body {
+    max-height: 100vh !important;
+  }
+  body .main_block {
+    display: block !important;
+    padding: 2vh;
+  }
+  body .main_block .phone_wrap,
+body .main_block .header {
+    width: 100% !important;
+    right: 0 !important;
+    justify-content: center !important;
+    padding-top: 3vh;
+  }
+  body .main_block .header,
+body .main_block .header h1,
+body .main_block .header p {
+    width: 100% !important;
+    text-align: center;
+  }
+  body .background_1,
+body .background_2 {
+    width: 250px !important;
+    height: 400px !important;
+  }
+}
+body {
+  font: 16px "Rubik", sans-serif;
+  background-color: #fafafa;
+}
+body .bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+body .bg .background_1 {
+  align-self: flex-start;
+  margin: 0 5vw 0 -5vw;
+  width: 476px;
+  height: 700px;
+  top: 0px;
+  background: linear-gradient(90deg, hsl(293deg, 100%, 63%) 0%, hsl(264deg, 100%, 61%) 100%);
+  border-radius: 0px 0px 255px 202px;
+}
+body .bg .background_2 {
+  align-self: flex-end;
+  margin-right: 0 -5vw 0 5vw;
+  width: 476px;
+  height: 700px;
+  background: #f7f5fa;
+  border-radius: 0px 0px 255px 202px;
+  transform: rotate(-179.99deg);
+}
+body .main_block {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+}
+body .main_block .phone_wrap,
+body .main_block .header {
+  width: 50%;
+}
+body .main_block .phone_wrap {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 110px;
+}
+body .main_block .phone_wrap .phone {
+  border: 10px solid hsl(0deg, 0%, 100%);
+  background: #f5f3f8;
+  border-radius: 28px;
+  width: 247px;
+  height: 506px;
+}
+body .main_block .phone_wrap .phone .phone_header {
+  background: linear-gradient(90deg, hsl(293deg, 100%, 63%) 0%, hsl(264deg, 100%, 61%) 100%);
+  overflow: hidden;
+  border-radius: 18px 18px 0 0;
+}
+body .main_block .phone_wrap .phone .phone_header .speaker {
+  width: 129px;
+  height: 18px;
+  margin: auto;
+  border-radius: 0 0 13px 13px;
+  background-color: white;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .back {
+  background-color: transparent;
+  border-color: transparent;
+  align-items: center;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_avatar {
+  height: 24px;
+  margin-left: 8px;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_avatar img {
+  border-radius: 40px;
+  border: 2px solid white;
+  width: 20px;
+  height: 20px;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_info {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding-left: 8px;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_info h3 {
+  font-size: 12px;
+  color: white;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .user_info span {
+  font-size: 8px;
+  color: hsl(276deg, 100%, 81%);
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+  border-color: transparent;
+  width: 10px;
+  height: 10px;
+}
+body .main_block .phone_wrap .phone .phone_header .head_menu .menu .circle {
+  align-self: center;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 2px;
+}
+body .main_block .phone_wrap .phone .screen {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 10px;
+}
+body .main_block .phone_wrap .phone .screen .moderat {
+  align-self: flex-start;
+  background-color: #ede4f5;
+  color: hsl(276deg, 55%, 52%);
+  border-radius: 10px 10px 10px 0;
+}
+body .main_block .phone_wrap .phone .screen .send {
+  align-self: flex-end;
+  background-color: white;
+  color: hsl(271deg, 15%, 43%);
+  border-radius: 10px 10px 0 10px;
+}
+body .main_block .phone_wrap .phone .screen .img_send {
+  margin: 12px 4px 4px 4px;
+  align-self: flex-end;
+}
+body .main_block .phone_wrap .phone .screen .img_send img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9px;
+}
+body .main_block .phone_wrap .phone .screen .choice {
+  align-self: flex-start;
+  background: linear-gradient(90deg, hsl(293deg, 100%, 63%) 0%, hsl(264deg, 100%, 61%) 100%);
+  border-radius: 10px 10px 10px 0;
+  width: 160px;
+  height: 32px;
+  margin: 4px;
+  padding: 0 8px;
+  color: hsl(276deg, 100%, 81%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main_block .phone_wrap .phone .screen .choice input[type=radio] {
+  appearance: none;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+body .main_block .phone_wrap .phone .screen .choice span {
+  flex-grow: 1;
+  font-size: 8px;
+  padding-left: 8px;
+}
+body .main_block .phone_wrap .phone .screen .choice h4 {
+  color: white;
+  padding-right: 8px;
+}
+body .main_block .phone_wrap .phone .screen .user_input {
+  margin: 6px;
+  height: 34px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 10px;
+  color: hsl(276deg, 55%, 52%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+body .main_block .phone_wrap .phone .screen .user_input .input_label {
+  flex-grow: 1;
+  margin-left: 16px;
+  color: #f5f3f8;
+}
+body .main_block .phone_wrap .phone .screen .user_input .btn {
+  width: 26px;
+  height: 24px;
+  background-color: hsl(271deg, 36%, 24%);
+  border-radius: 12px;
+  appearance: none;
+  border: none;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main_block .phone_wrap .phone .screen .user_input .btn img {
+  transform: rotate(180deg);
+  width: 6px;
+  height: 10px;
+}
+body .main_block .header h1 {
+  color: hsl(271deg, 36%, 24%);
+}
+body .main_block .header p {
+  width: 30vw;
+  word-wrap: break-word;
+  color: hsl(270deg, 7%, 64%);
+}
+
+/*# sourceMappingURL=style.css.map */
