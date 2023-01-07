@@ -23,19 +23,19 @@ $app-background: #f5f3f8;
 
 // Adaptive
 
-// @media screen and (min-width: 1440px) {
-//   .main_block {
-//     zoom: 125%;
-//     margin: 0;
-//     padding: 0;
-//     height: 75vh !important;
-//   }
-//   .bg {
-//     zoom: 125%;
-//     width: 80vw !important;
-//     height: 80vh !important;
-//   }
-// }
+@media screen and (min-width: 1440px) {
+  .main_block {
+    zoom: 125%;
+    margin: 0;
+    padding: 0;
+    height: 75vh !important;
+  }
+  .bg {
+    zoom: 125%;
+    width: 80vw !important;
+    height: 80vh !important;
+  }
+}
 
 @media screen and (min-width: 1px) and (max-width: 799px) {
   body {
