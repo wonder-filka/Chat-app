@@ -21,6 +21,11 @@ body .main_block .phone_wrap .phone .screen .send, body .main_block .phone_wrap 
     padding: 0;
     height: 75vh !important;
   }
+  .bg {
+    zoom: 125%;
+    width: 80vw !important;
+    height: 80vh !important;
+  }
 }
 @media screen and (min-width: 1px) and (max-width: 799px) {
   body {
