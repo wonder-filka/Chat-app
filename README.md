@@ -1,19 +1,15 @@
-# Chat app
+# Chat app SCSS
 
-![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
+![](./screenshot.jpg)
 
-## Welcome! 👋
+### Links
 
-Your users should be able to:
+- [GitHub Pages](https://github.com/wonder-filka/Chat-app)
+- [Netlify](https://comfy-elf-85a4d8.netlify.app/)
 
-- View the optimal layout for the component depending on their device's screen size
-- **Bonus**: See the chat interface animate on the initial load
+## My process
 
-## Building project
+### Built with
 
-## Deploying project
-
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
-
-- [GitHub Pages](https://pages.github.com/)
-- [Netlify](https://www.netlify.com/)
+- HTML
+- SCSS

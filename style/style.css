@@ -14,7 +14,15 @@ body .main_block .phone_wrap .phone .screen .send, body .main_block .phone_wrap 
   margin: 4px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 800px) {
+@media screen and (min-width: 1440px) {
+  .main_block {
+    zoom: 125%;
+    margin: 0;
+    padding: 0;
+    height: 75vh !important;
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 799px) {
   body {
     max-height: 100vh !important;
   }
@@ -44,6 +52,7 @@ body .background_2 {
 body {
   font: 16px "Rubik", sans-serif;
   background-color: #fafafa;
+  height: 100vh;
 }
 body .bg {
   width: 100vw;
@@ -77,8 +86,9 @@ body .main_block {
   z-index: 1;
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
+  height: 100%;
   align-items: center;
+  justify-content: center;
 }
 body .main_block .phone_wrap,
 body .main_block .header {
@@ -208,6 +218,9 @@ body .main_block .phone_wrap .phone .screen .choice input[type=radio] {
   border: 1px solid white;
   border-radius: 50%;
 }
+body .main_block .phone_wrap .phone .screen .choice input[type=radio]:focus {
+  background-color: hsl(289deg, 100%, 72%);
+}
 body .main_block .phone_wrap .phone .screen .choice span {
   flex-grow: 1;
   font-size: 8px;
@@ -228,9 +241,14 @@ body .main_block .phone_wrap .phone .screen .user_input {
   flex-direction: row;
   align-items: center;
 }
-body .main_block .phone_wrap .phone .screen .user_input .input_label {
-  flex-grow: 1;
-  margin-left: 16px;
+body .main_block .phone_wrap .phone .screen .user_input input {
+  border: none;
+  padding-left: 16px;
+}
+body .main_block .phone_wrap .phone .screen .user_input input:focus {
+  outline: none;
+}
+body .main_block .phone_wrap .phone .screen .user_input input::placeholder {
   color: #f5f3f8;
 }
 body .main_block .phone_wrap .phone .screen .user_input .btn {
