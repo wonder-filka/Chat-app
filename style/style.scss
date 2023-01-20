@@ -263,15 +263,15 @@ body {
             display: flex;
             flex-direction: row;
             align-items: center;
-
             input {
               border: none;
-              padding-left: 16px;
+              flex: 1;
               &:focus {
                 outline: none;
               }
               &::placeholder {
                 color: $app-background;
+                padding-left: 1vh;
               }
             }
             .btn {
@@ -281,7 +281,7 @@ body {
               border-radius: 12px;
               appearance: none;
               border: none;
-              margin-right: 4px;
+              margin-right: 1vh;
               display: flex;
               align-items: center;
               justify-content: center;

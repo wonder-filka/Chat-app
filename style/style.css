@@ -248,13 +248,14 @@ body .main_block .phone_wrap .phone .screen .user_input {
 }
 body .main_block .phone_wrap .phone .screen .user_input input {
   border: none;
-  padding-left: 16px;
+  flex: 1;
 }
 body .main_block .phone_wrap .phone .screen .user_input input:focus {
   outline: none;
 }
 body .main_block .phone_wrap .phone .screen .user_input input::placeholder {
   color: #f5f3f8;
+  padding-left: 1vh;
 }
 body .main_block .phone_wrap .phone .screen .user_input .btn {
   width: 26px;
@@ -263,7 +264,7 @@ body .main_block .phone_wrap .phone .screen .user_input .btn {
   border-radius: 12px;
   appearance: none;
   border: none;
-  margin-right: 4px;
+  margin-right: 1vh;
   display: flex;
   align-items: center;
   justify-content: center;
